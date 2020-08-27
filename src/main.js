@@ -10,7 +10,6 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 //Router
 import VueRouter from 'vue-router'
-
 import Home from './views/Home';
 
 const router = new VueRouter({
@@ -18,7 +17,7 @@ const router = new VueRouter({
   {
     path:'/home',component : Home
   }
-],
+  ],
 
   mode:'history'
 })
