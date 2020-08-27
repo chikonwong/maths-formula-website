@@ -10,14 +10,22 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 //Router
 import VueRouter from 'vue-router'
-import Home from './views/Home';
+// import Home from './views/Home';
+import Estimation_and_Error_Formula from './views/Estimation_and_Error_Formula'
+import Percentage_Formula from './views/Percentage_Formula'
 
 const router = new VueRouter({
   routes:[
   {
-    path:'/home',component : Home
+   path:'/Estimation_and_Error_Formula', component :Estimation_and_Error_Formula
+    
+    },
+  {
+    path:'/Percentage_Formula', component :Percentage_Formula
   }
   ],
+  
+
 
   mode:'history'
 })
