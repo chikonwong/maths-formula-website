@@ -1,13 +1,14 @@
 <template>
   <div id="app">
-    <Sidebar></Sidebar>
-    <router-view></router-view>
+    <Sidebar id="sidebar"></Sidebar>
+    <router-view/>
   </div>
   
 </template>
 
 <script>
 import Sidebar from './components/Sidebar.vue'
+
 
 export default {
   name: 'App',
@@ -26,4 +27,8 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+#sidebar{
+  background-color: aqua;
+}
+
 </style>
