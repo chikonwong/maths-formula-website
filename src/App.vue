@@ -10,12 +10,8 @@
         <b-col md="9">
           <router-view /></b-col>
       </b-row>
-      <Footer id="home"></Footer>
+      <Footer id="footer"></Footer>
     </b-container>
-
-
-
-
 
   </div>
 
@@ -31,8 +27,6 @@
       Sidebar,
       Footer,
       Header
-
-
     }
   }
 </script>
