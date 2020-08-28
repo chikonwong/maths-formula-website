@@ -14,6 +14,9 @@ import VueRouter from 'vue-router'
 import Estimation_and_Error_Formula from './views/Estimation_and_Error_Formula'
 import Percentage_Formula from './views/Percentage_Formula'
 
+//MathsJax
+import VueMathjax from 'vue-mathjax'
+
 const router = new VueRouter({
   routes:[
   {
@@ -35,7 +38,7 @@ const router = new VueRouter({
 // Vue Use
 Vue.use(BootstrapVue)
 Vue.use(VueRouter)
-
+Vue.use(VueMathjax)
 
 
 
