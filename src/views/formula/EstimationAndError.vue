@@ -14,6 +14,7 @@
 
 <script>
   export default {
+   
     computed: {
       formula1() {
         return this.$t('EstimationAndError.formula1');
