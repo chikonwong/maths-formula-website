@@ -7,6 +7,7 @@
     <vue-mathjax :formula="formula4"></vue-mathjax>
     <vue-mathjax :formula="formula5"></vue-mathjax>
     <vue-mathjax :formula="formula6"></vue-mathjax>
+    <button>{{ $t('about-screen.title') }}</button>
 
 
   </div>
