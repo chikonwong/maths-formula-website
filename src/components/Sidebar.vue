@@ -1,19 +1,18 @@
 <template>
   <div>
     MENU<ul class="list-unstyled right-align">
-      <li>
-        <router-link to="/">Home</router-link>
+      <li>a
       </li>
-      <li>
-        <router-link to="/EstimationAndError">Estimation and Error Formula</router-link>
+      <li>b
       </li>
-      <li>
-        <router-link to="/Percentage">Percentage</router-link>
+      <li>c
       </li>
-      <li>
+      <li>d
       </li>
-      
-
+      <li>e
+      </li>
+      <li>f
+      </li>
     </ul>
   </div>
 

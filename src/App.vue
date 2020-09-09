@@ -5,7 +5,7 @@
       <Header></Header>
       <b-row>
         <b-col md="3">
-          <Sidebar id="sidebar" />
+          <Sidebar id="sidebar"></Sidebar>
         </b-col>
         <b-col md="9">
           <router-view></router-view>

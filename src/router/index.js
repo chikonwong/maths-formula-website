@@ -5,8 +5,7 @@ Vue.use(VueRouter)
 
 // Router Views
 import Home from '@/views/Home.vue/';
-import EstimationAndError from '@/views/formula/EstimationAndError'
-import Percentage from '@/views/formula/Percentage'
+
 
 export default new VueRouter({
   routes: [{
@@ -14,15 +13,7 @@ export default new VueRouter({
       component: Home
 
     },
-    {
-      path: '/EstimationAndError',
-      component: EstimationAndError
-
-    },
-    {
-      path: '/Percentage',
-      component: Percentage
-    }
+  
   ],
   mode: 'history'
 })

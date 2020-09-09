@@ -2,8 +2,8 @@
     <div class="header">
         <b-container>
             <b-row>
-                <b-col md='9'></b-col>
-                <b-col md='3'>
+                <b-col ></b-col>
+                <b-col >
 
                     <b-button @click="switchLang('en')" variant="info">ENG</b-button>
                     <b-button @click="switchLang('tw')" variant="info">TW</b-button>
@@ -16,18 +16,22 @@
 </template>
 <script>
     export default {
-        methods:{
-        switchLang(lang) {
-            this.$i18n.locale = lang
-            localStorage.setItem('locale', lang)
-            console.log('clicked')
-        },
-}
+        methods: {
+            switchLang(lang) {
+                this.$i18n.locale = lang
+                localStorage.setItem('locale', lang)
+                console.log('clicked')
+            },
+        }
     }
 </script>
 <style>
     .header {
-        padding: 100px;
+       
+        position: fixed;
+        
+        width: 100%;
+        background-color: aquamarine;
 
     }
 </style>
