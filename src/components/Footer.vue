@@ -1,6 +1,6 @@
 <template>
     <div class="footer">
-        @WONG 
+        Copyright@WONG 
     </div>
 </template>
 <style>

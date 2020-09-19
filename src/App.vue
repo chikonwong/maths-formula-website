@@ -1,9 +1,10 @@
 <template>
-  <div>
+  
 
-    <b-container>
-      <Header></Header>
+   <div>
+      <Navbar></Navbar>
       <b-row>
+        
         <b-col md="3">
           <Sidebar id="sidebar"></Sidebar>
         </b-col>
@@ -12,22 +13,22 @@
         </b-col>
       </b-row>
       <Footer></Footer>
-    </b-container>
+   </div>
 
-  </div>
+  
 
 </template>
 
 <script>
   import Sidebar from './components/Sidebar'
   import Footer from './components/Footer'
-  import Header from './components/Header'
+  import Navbar from './components/Navbar'
 
   export default {
     components: {
       Sidebar,
       Footer,
-      Header
+      Navbar
     }
   }
 </script>
