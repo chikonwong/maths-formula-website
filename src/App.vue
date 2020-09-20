@@ -1,21 +1,18 @@
 <template>
-  
 
-   <div>
-      <Navbar></Navbar>
-      <b-row>
-        
-        <b-col md="3">
-          <Sidebar id="sidebar"></Sidebar>
-        </b-col>
-        <b-col md="9">
-          <router-view></router-view>
-        </b-col>
-      </b-row>
-      <Footer></Footer>
-   </div>
 
-  
+  <div>
+    <Navbar></Navbar>
+    <Sidebar id="sidebar"></Sidebar>
+    <b-container >
+      <b-col >
+        <router-view></router-view>
+      </b-col>
+    </b-container>
+    <Footer></Footer>
+  </div>
+
+
 
 </template>
 

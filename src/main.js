@@ -5,10 +5,11 @@ import i18n from './i18n/index'
 
 // Bootstrp Vue
 import {
-  BootstrapVue
+  BootstrapVue,BootstrapVueIcons
 } from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
+Vue.use(BootstrapVueIcons)
 Vue.use(BootstrapVue)
 
 // MathsJax
