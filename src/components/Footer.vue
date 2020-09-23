@@ -1,17 +1,25 @@
 <template>
-    <div class="footer">
-        Copyright@WONG 
-    </div>
+<div class="footer">
+  <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+        <!-- Copyright -->
+        Copyright &copy; WONG 
+    </footer>
+</div>
+  
 </template>
 <style>
     /* fixed footer */
-    .footer {
-        background-color: aquamarine;
-        position: fixed;
-        left: 0;
-        bottom: 0;
+    /* footer {
+    text-align: center;
+    background-color: #333;
+    color: #f1f1f1;
+    position:absolute;
+    width: 100%;
+    bottom: 0;
+
+    } */
+    /* #sticky-footer{
+        flex-shrink: none;
         width: 100%;
-        color: white;
-        text-align: center;
-    }
+    } */
 </style>
