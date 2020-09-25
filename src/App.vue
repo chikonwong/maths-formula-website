@@ -4,11 +4,11 @@
   <div>
     <Navbar></Navbar>
     <Sidebar id="sidebar"></Sidebar>
-    <b-container >
+    <b-container>
       <div class="content">
-<router-view></router-view>
+        <router-view></router-view>
       </div>
-        
+
     </b-container>
     <Footer></Footer>
   </div>
@@ -32,18 +32,28 @@
 </script>
 
 <style>
-html {
-  position: relative;
-  min-height: 100%;
-}
-.content {
-  /* height of footer */
-  margin-bottom: 100px;
-}
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 60px;
-}
+  html {
+    position: relative;
+    min-height: 100%;
+  }
+
+  .content {
+    /* height of footer */
+    margin-bottom: 100px;
+  }
+
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+  }
+
+  .sidebar {
+    background-color:aquamarine;
+    width: 300px;
+    max-width: 1024px;
+   
+   
+  }
 </style>

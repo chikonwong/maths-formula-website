@@ -1,24 +1,21 @@
 <template>
-  <div>
-    <b-sidebar>
-    adgyakvb
-    adifygib
+  <div class="sidebar">
+   <nav id="fixed-sidebar">
+     <h2>This is sidebar</h2>
+     <ul>
+       <li>
+         col1
+       </li>
+       <li>
+         col2
+       </li>
+       <li>
+         col3
+       </li>
 
-    </b-sidebar>
+     </ul>
+
+   </nav>
   </div>
 
 </template>
-
-<script>
-  export default {
-    data() {
-      return {
-
-      }
-    }
-  }
-</script>
-<style>
-
-
-</style>
