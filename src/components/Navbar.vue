@@ -1,34 +1,5 @@
 <template>
-    <!-- <b-navbar id="navbar">
-        <b-container>
-            <b-row>
 
-                <b-col md="2">
-                    <b-button v-b-toggle.sidebar>
-                        <b-icon icon="layout-sidebar" class="sm " />
-                    </b-button>
-                </b-col>
-              
-                <b-col md="8">
-                    <b-input-group size="sm" class="container">
-                        <b-input-group-prepend is-text>
-                            <b-icon icon="search"></b-icon>
-                        </b-input-group-prepend>
-                        <b-form-input type="search"></b-form-input>
-                    </b-input-group>
-                </b-col>
-                
-                <b-col md="2" class="d-flex justify-content-end">
-                    <b-nav-item-dropdown text="language" right>
-                        <b-dropdown-item @click="switçchLang('en')" variant="info">ENG</b-dropdown-item>
-                        <b-dropdown-item @click="switchLang('tw')" variant="info">TW</b-dropdown-item>
-                        <b-dropdown-item @click="switchLang('cn')" variant="info">CN</b-dropdown-item>
-                    </b-nav-item-dropdown>
-                </b-col>
-            </b-row>
-        </b-container>
-    </b-navbar>
--->
     <div>
         <b-navbar toggleable="lg" type="dark" variant="info">
             <b-navbar-brand>Maths Formula for HKDSE</b-navbar-brand>
@@ -83,8 +54,3 @@
         }
     }
 </script>
-<style>
-    #navbar {
-        background-color: aquamarine;
-    }
-</style>
