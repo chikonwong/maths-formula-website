@@ -1,5 +1,5 @@
 <template>
-  <div class="sidebar">
+  <div class="sidebar col-2">
     <!-- this is web version sidebar-->
     <!-- <div class="d-md-none d-lg-block">
       <h2>This is web version sidebar</h2>
@@ -11,7 +11,7 @@
     </div> -->
     <!-- this is full secreen version sidebar  -->
     <div class="d-none d-md-block d-lg-block d-xl-block">
-      <b-form-input></b-form-input>
+      <b-form-input class="mt-2"></b-form-input>
       <h2>This is Full Screen version sidebar</h2>
       <ul>
         <li>col1</li>
@@ -24,20 +24,15 @@
       <b-sidebar
         id="sidebar-backdrop"
         title="Sidebar with backdrop"
-        :backdrop-variant="variant"
+        backdrop-variant="dark"
         backdrop
         shadow
       >
         <div class="px-3 py-2">
-          <b-form-group label="Backdrop variant" label-for="backdrop-variant">
-            <b-form-select
-              id="backdrop-variant"
-              v-model="variant"
-              :options="variants"
-            ></b-form-select>
-          </b-form-group>
+         
         </div>
       </b-sidebar>
     </div>
   </div>
 </template>
+
