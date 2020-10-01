@@ -1,17 +1,9 @@
 <template>
   <div class="sidebar col-2">
-    <!-- this is web version sidebar-->
-    <!-- <div class="d-md-none d-lg-block">
-      <h2>This is web version sidebar</h2>
-      <ul>
-        <li>col1</li>
-        <li>col2</li>
-        <li>col3</li>
-      </ul>
-    </div> -->
+   
     <!-- this is full secreen version sidebar  -->
     <div class="d-none d-md-block d-lg-block d-xl-block">
-      <b-form-input class="mt-2"></b-form-input>
+      <b-form-input class="mt-2" placeholder="Search"></b-form-input>
       <h2>This is Full Screen version sidebar</h2>
       <ul>
         <li>col1</li>
