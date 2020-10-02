@@ -1,11 +1,11 @@
 <template>
-  <div class="sidebar col-2">
+  <div class="sidebar col-3">
    
     <!-- this is full secreen version sidebar  -->
-    <div class="d-none d-md-block d-lg-block d-xl-block">
+    <div class="d-none d-md-block d-lg-block d-xl-block col-12">
       <b-form-input class="mt-2" placeholder="Search"></b-form-input>
-      <h2>This is Full Screen version sidebar</h2>
-      <ul>
+      <!-- <h2>This is Full Screen version sidebar</h2> -->
+      <ul class="list-unstyled px-3">
         <li>col1</li>
         <li>col2</li>
         <li>col3</li>

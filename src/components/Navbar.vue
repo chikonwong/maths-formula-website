@@ -1,27 +1,18 @@
 <template>
   <div>
     <b-navbar toggleable="lg" type="dark" variant="info">
+      <!-- This is sidebar button -->
       <div class="d-sm-block d-md-none">
-        <b-button v-b-toggle.sidebar-backdrop>Toggle Sidebar</b-button>
+        <b-button v-b-toggle.sidebar-backdrop
+          ><b-icon icon="menu-button-wide"></b-icon
+        ></b-button>
       </div>
-
+      <!-- This is Maths Formula for HKDSE brand -->
       <b-navbar-brand>Maths Formula for HKDSE</b-navbar-brand>
-
-      <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
       <b-collapse id="nav-collapse" is-nav>
         <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-auto">
-          <!-- <b-nav-form>
-            <b-form-input
-              size="sm"
-              class="mr-sm-2"
-              placeholder="Search"
-            ></b-form-input>
-            <b-button size="sm" class="my-2 my-sm-0" type="submit"
-              ><b-icon icon="search"></b-icon
-            ></b-button>
-          </b-nav-form> -->
           <!-- language button -->
           <b-nav-item-dropdown text="language" right>
             <b-dropdown-item @click="switchLang('en')" variant="info"
