@@ -1,7 +1,7 @@
 <template>
     <div class="col-8">
        <div v-for="item in info" :key="item.sub_topic">
-      {{ item.sub_topic }}
+      {{ item.sub_topic }}this
       {{ item.formula }}
     </div>
     </div>
