@@ -14,7 +14,7 @@
         <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-auto">
           <!-- language button -->
-          <b-nav-item-dropdown text="language" right>
+          <!-- <b-nav-item-dropdown text="language" right>
             <b-dropdown-item @click="switchLang('en')" variant="info"
               >ENG</b-dropdown-item
             >
@@ -24,7 +24,8 @@
             <b-dropdown-item @click="switchLang('cn')" variant="info"
               >CN</b-dropdown-item
             >
-          </b-nav-item-dropdown>
+          </b-nav-item-dropdown> -->
+          <b-button>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>

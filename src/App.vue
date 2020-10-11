@@ -1,8 +1,8 @@
 <template>
-  <div>
+  <div >
     <Navbar></Navbar>
     <Sidebar></Sidebar>
-    <div class="content">
+    <div class="content container-fluid">
       <router-view></router-view>
     </div>
     <Footer></Footer>
@@ -41,11 +41,5 @@ html {
   /* height: 60px; */
 }
 
-/* .sidebar {
-  background-color: aquamarine;
-  width: 20%;
-  position: absolute;
-  height: 100%;
-  text-align: center;
-} */
+
 </style>

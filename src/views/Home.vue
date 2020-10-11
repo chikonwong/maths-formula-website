@@ -1,6 +1,6 @@
 <template>
-    <div class="col-8">
-       <div v-for="item in info" :key="item.sub_topic">
+    <div class="col-9">
+       <div v-for="(item, index) in info" :key="index">
       {{ item.sub_topic }}
       {{ item.formula }}
     </div>

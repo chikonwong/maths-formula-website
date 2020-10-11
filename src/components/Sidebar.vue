@@ -1,6 +1,5 @@
 <template>
-  <div class="sidebar col-3">
-   
+  <div class="col-3">
     <!-- this is full secreen version sidebar  -->
     <div class="d-none d-md-block d-lg-block d-xl-block col-12">
       <b-form-input class="mt-2" placeholder="Search"></b-form-input>
@@ -20,9 +19,7 @@
         backdrop
         shadow
       >
-        <div class="px-3 py-2">
-         
-        </div>
+        <div class="px-3 py-2"></div>
       </b-sidebar>
     </div>
   </div>
